@@ -1,0 +1,571 @@
+[
+  {
+    "id": "coffee_drip",
+    "name": "Coffee (Drip / Filter)",
+    "icon": "coffee",
+    "caffeineContent": 0.40,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_espresso",
+    "name": "Espresso",
+    "icon": "espresso",
+    "caffeineContent": 2.13,
+    "sizes": [
+      {"value": 1.0, "unit": "oz"},
+      {"value": 2.0, "unit": "oz"},
+      {"value": 30.0, "unit": "ml"},
+      {"value": 60.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_americano",
+    "name": "Americano",
+    "icon": "coffee",
+    "caffeineContent": 0.36,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_latte",
+    "name": "Latte / Cappuccino",
+    "icon": "coffee_latte",
+    "caffeineContent": 0.27,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_cold_brew",
+    "name": "Cold Brew",
+    "icon": "coffee_iced",
+    "caffeineContent": 0.42,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_nitro",
+    "name": "Nitro Cold Brew",
+    "icon": "coffee_iced",
+    "caffeineContent": 0.59,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_instant",
+    "name": "Instant Coffee",
+    "icon": "coffee",
+    "caffeineContent": 0.24,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_decaf",
+    "name": "Decaf Coffee",
+    "icon": "coffee",
+    "caffeineContent": 0.02,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_frappe",
+    "name": "Frappe / Blended Coffee",
+    "icon": "coffee_iced",
+    "caffeineContent": 0.20,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_macchiato",
+    "name": "Espresso Macchiato",
+    "icon": "espresso",
+    "caffeineContent": 1.40,
+    "sizes": [
+      {"value": 1.5, "unit": "oz"},
+      {"value": 3.0, "unit": "oz"},
+      {"value": 45.0, "unit": "ml"},
+      {"value": 90.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "coffee_cortado",
+    "name": "Cortado / Gibraltar",
+    "icon": "espresso",
+    "caffeineContent": 1.05,
+    "sizes": [
+      {"value": 4.0, "unit": "oz"},
+      {"value": 120.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_black",
+    "name": "Black Tea",
+    "icon": "tea",
+    "caffeineContent": 0.20,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 350.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_green",
+    "name": "Green Tea",
+    "icon": "tea",
+    "caffeineContent": 0.12,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 350.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_white",
+    "name": "White Tea",
+    "icon": "tea",
+    "caffeineContent": 0.13,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_oolong",
+    "name": "Oolong Tea",
+    "icon": "tea",
+    "caffeineContent": 0.16,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_matcha",
+    "name": "Matcha (Traditional)",
+    "icon": "tea_bowl",
+    "caffeineContent": 0.30,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 240.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_matcha_latte",
+    "name": "Matcha Latte",
+    "icon": "coffee_latte",
+    "caffeineContent": 0.17,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_chai_latte",
+    "name": "Chai Latte",
+    "icon": "coffee_latte",
+    "caffeineContent": 0.20,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_yerba_mate",
+    "name": "Yerba Mate",
+    "icon": "tea",
+    "caffeineContent": 0.36,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_iced_bottled",
+    "name": "Iced Tea (Bottled)",
+    "icon": "tea_iced",
+    "caffeineContent": 0.06,
+    "sizes": [
+      {"value": 16.0, "unit": "oz"},
+      {"value": 20.0, "unit": "oz"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_kombucha",
+    "name": "Kombucha",
+    "icon": "bottle",
+    "caffeineContent": 0.03,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_bubble_black",
+    "name": "Bubble Tea (Black Milk)",
+    "icon": "bubble_tea",
+    "caffeineContent": 0.27,
+    "sizes": [
+      {"value": 16.0, "unit": "oz"},
+      {"value": 24.0, "unit": "oz"},
+      {"value": 500.0, "unit": "ml"},
+      {"value": 700.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "soda_cola",
+    "name": "Cola",
+    "icon": "soda",
+    "caffeineContent": 0.096,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 20.0, "unit": "oz"},
+      {"value": 330.0, "unit": "ml"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "soda_diet_cola",
+    "name": "Diet Cola",
+    "icon": "soda",
+    "caffeineContent": 0.13,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 20.0, "unit": "oz"},
+      {"value": 330.0, "unit": "ml"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "soda_citrus",
+    "name": "Citrus Soda (e.g. Mtn Dew)",
+    "icon": "soda",
+    "caffeineContent": 0.15,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 20.0, "unit": "oz"},
+      {"value": 330.0, "unit": "ml"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "soda_dr_style",
+    "name": "Dr. Pepper Style",
+    "icon": "soda",
+    "caffeineContent": 0.12,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 20.0, "unit": "oz"},
+      {"value": 330.0, "unit": "ml"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "soda_root_beer",
+    "name": "Root Beer (Caffeinated)",
+    "icon": "soda",
+    "caffeineContent": 0.06,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 330.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "soda_orange",
+    "name": "Orange Soda (Caffeinated)",
+    "icon": "soda",
+    "caffeineContent": 0.05,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 330.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "soda_cream",
+    "name": "Cream Soda (Caffeinated)",
+    "icon": "soda",
+    "caffeineContent": 0.06,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 330.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "energy_standard",
+    "name": "Energy Drink (Standard)",
+    "icon": "energy",
+    "caffeineContent": 0.32,
+    "sizes": [
+      {"value": 8.4, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "energy_sugar_free",
+    "name": "Energy Drink (Sugar Free)",
+    "icon": "energy",
+    "caffeineContent": 0.32,
+    "sizes": [
+      {"value": 8.4, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 473.0, "unit": "ml"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "energy_monster_style",
+    "name": "Energy Drink (Mega/16oz)",
+    "icon": "energy",
+    "caffeineContent": 0.34,
+    "sizes": [
+      {"value": 16.0, "unit": "oz"},
+      {"value": 19.2, "unit": "oz"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "energy_performance",
+    "name": "Performance Energy (e.g. Celsius)",
+    "icon": "energy",
+    "caffeineContent": 0.56,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 355.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "energy_high_caf",
+    "name": "High Caf Energy (e.g. Bang/Reign)",
+    "icon": "energy",
+    "caffeineContent": 0.63,
+    "sizes": [
+      {"value": 16.0, "unit": "oz"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "energy_coffee_hybrid",
+    "name": "Coffee Energy Drink",
+    "icon": "coffee_iced",
+    "caffeineContent": 0.45,
+    "sizes": [
+      {"value": 15.0, "unit": "oz"},
+      {"value": 443.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "energy_shot",
+    "name": "Energy Shot",
+    "icon": "shot",
+    "caffeineContent": 3.33,
+    "sizes": [
+      {"value": 2.0, "unit": "oz"},
+      {"value": 60.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "pre_workout_std",
+    "name": "Pre-Workout (Standard)",
+    "icon": "fitness",
+    "caffeineContent": 0.63,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 10.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 300.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "pre_workout_high",
+    "name": "Pre-Workout (High Stim)",
+    "icon": "fitness",
+    "caffeineContent": 1.25,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 10.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 300.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "water_caffeinated",
+    "name": "Caffeinated Water",
+    "icon": "water",
+    "caffeineContent": 0.13,
+    "sizes": [
+      {"value": 16.0, "unit": "oz"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "cocoa_hot",
+    "name": "Hot Chocolate",
+    "icon": "mug",
+    "caffeineContent": 0.02,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 350.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "milk_chocolate",
+    "name": "Chocolate Milk",
+    "icon": "milk",
+    "caffeineContent": 0.01,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "guayusa_tea",
+    "name": "Guayusa",
+    "icon": "tea",
+    "caffeineContent": 0.35,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "yaupon_tea",
+    "name": "Yaupon Tea",
+    "icon": "tea",
+    "caffeineContent": 0.25,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "cascara_tea",
+    "name": "Cascara (Coffee Cherry)",
+    "icon": "tea",
+    "caffeineContent": 0.10,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "arnold_palmer",
+    "name": "Arnold Palmer (Half Tea)",
+    "icon": "tea_iced",
+    "caffeineContent": 0.10,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 16.0, "unit": "oz"},
+      {"value": 23.0, "unit": "oz"},
+      {"value": 350.0, "unit": "ml"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "supplement_powder",
+    "name": "Electrolyte Energy Mix",
+    "icon": "fitness",
+    "caffeineContent": 0.42,
+    "sizes": [
+      {"value": 16.0, "unit": "oz"},
+      {"value": 20.0, "unit": "oz"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "protein_coffee",
+    "name": "Protein Coffee",
+    "icon": "shake",
+    "caffeineContent": 0.45,
+    "sizes": [
+      {"value": 11.0, "unit": "oz"},
+      {"value": 330.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "caffeine_sparkling_ice",
+    "name": "Sparkling Energy Water (Ice)",
+    "icon": "soda",
+    "caffeineContent": 0.42,
+    "sizes": [
+      {"value": 16.0, "unit": "oz"},
+      {"value": 473.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "soft_drink_generic",
+    "name": "Generic Soft Drink",
+    "icon": "soda",
+    "caffeineContent": 0.09,
+    "sizes": [
+      {"value": 12.0, "unit": "oz"},
+      {"value": 20.0, "unit": "oz"},
+      {"value": 330.0, "unit": "ml"},
+      {"value": 500.0, "unit": "ml"}
+    ]
+  },
+  {
+    "id": "tea_generic",
+    "name": "Generic Tea",
+    "icon": "tea",
+    "caffeineContent": 0.15,
+    "sizes": [
+      {"value": 8.0, "unit": "oz"},
+      {"value": 12.0, "unit": "oz"},
+      {"value": 250.0, "unit": "ml"},
+      {"value": 350.0, "unit": "ml"}
+    ]
+  }
+]
