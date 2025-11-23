@@ -1,0 +1,67 @@
+Privacy Policy for Caff Conscious
+Last Updated: 11/22/25
+
+Caff Conscious ("we," "our," or "us") operates the Caff Conscious mobile application (the "App"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our App.
+
+We are committed to a "Local First" data philosophy. Your health and log data resides on your device. We do not sell your data. We only share data with third parties when necessary for subscription management or when you explicitly choose to contribute to the community database.
+
+1. Information We Collect
+A. Health Data (HealthKit & Health Connect)
+To provide the core functionality of the App, we request permission to read and write data to your device's health system (Apple HealthKit on iOS and Health Connect on Android).
+
+We Read: Sleep analysis, Resting Heart Rate, Heart Rate Variability (HRV), and Date of Birth (for metabolism calculations).
+
+We Write: Caffeine consumption data (so your other health apps remain updated).
+
+We do not transmit your health data to any external servers. All analysis happens locally on your phone.
+
+B. Consumption Logs
+Data regarding what you drink (drink name, size, caffeine amount, and time) is stored locally on your device.
+
+C. Product Data (Optional)
+If you choose to use the "Barcode Scanner" and submit new or corrected product information, we collect the photos you take of the product (front packaging and nutrition label) and the barcode data.
+
+2. Third-Party Data Sharing
+We share data with only the following two third-party services, and only for the specific purposes listed below:
+
+1. RevenueCat (Subscription Management)
+We use RevenueCat to manage the "Caff Conscious Pro" subscription, process payments, and handle subscription status across your devices.
+
+What is shared: An anonymous App User ID and purchase receipt data.
+
+What is NOT shared: Your health data, caffeine logs, or personal identity.
+
+Privacy Policy: RevenueCat Privacy Policy
+
+2. Open Food Facts (Community Database)
+This sharing is optional and user-initiated. If you scan a barcode that is not in our database (or is incorrect), the App allows you to submit product photos and nutrition information to Open Food Facts.
+
+What is shared: Product images, barcode numbers, and nutrition text that you submit.
+
+Purpose: To update the public Open Food Facts database so other users can find this drink in the future.
+
+Important: Data submitted to Open Food Facts becomes part of a public, open database. Do not include personal information in these photos.
+
+Privacy Policy: Open Food Facts Terms
+
+3. Data Storage and Security
+Local Storage
+Your personal caffeine logs, settings, and health correlations are stored locally on your device in a secure database. We do not maintain a cloud server for user logs.
+
+Health Connect & HealthKit
+Data accessed from Health Connect and HealthKit is governed by the respective platform's strict privacy standards.
+
+Google Play: Our use of information received from Health Connect adheres to the Health Connect Permissions policy, including Limited Use requirements.
+
+4. User Rights and Data Deletion
+Export: You may export your full log history to a CSV or JSON file via the App settings at any time.
+
+Deletion: You may delete all data stored by the App using the "Delete All Data" option in Settings. This will erase your local database. You may optionally choose to also delete data written to HealthKit/Health Connect during this process.
+
+5. Children’s Privacy
+Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13.
+
+6. Contact Us
+If you have any questions about this Privacy Policy, please contact us:
+
+By email: hackedcubeapps@gmail.com
