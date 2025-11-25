@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Buzzkill</title>
+    <style>
+        :root {
+            --bg-color: #1A1C1E; /* Gunmetal */
+            --surface-color: #25282D; /* Slightly lighter gunmetal for cards */
+            --text-primary: #E3E3E3;
+            --text-secondary: #C4C7C5;
+            --accent-primary: #6200EA; /* Electric Indigo */
+            --accent-secondary: #FFD600; /* Hazard Yellow */
+            --spacing-unit: 1rem;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Layout */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Header */
+        header {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 3rem;
+            padding-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-mark {
+            width: 40px;
+            height: 40px;
+            background-color: var(--accent-primary);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .logo-mark svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }
+
+        h1.site-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+
+        /* Typography */
+        h1, h2, h3 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        h1.page-title {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 2.5rem;
+            border-left: 4px solid var(--accent-primary);
+            padding-left: 1rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            margin-top: 1.5rem;
+            color: var(--text-primary);
+        }
+
+        p {
+            margin-bottom: 1.25rem;
+            color: var(--text-secondary);
+        }
+
+        strong {
+            color: white;
+            font-weight: 600;
+        }
+
+        /* Lists */
+        ul {
+            margin-bottom: 1.5rem;
+            margin-left: 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        li strong {
+            color: var(--text-primary);
+        }
+
+        /* Links */
+        a {
+            color: var(--accent-secondary);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: var(--accent-secondary);
+        }
+
+        /* Effective Date Badge */
+        .badge {
+            display: inline-block;
+            background-color: rgba(98, 0, 234, 0.2);
+            color: #B388FF;
+            padding: 0.25rem 0.75rem;
+            border-radius: 100px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(98, 0, 234, 0.5);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            font-size: 0.875rem;
+            color: rgba(255, 255, 255, 0.4);
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            h1.page-title { font-size: 2rem; }
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo-mark">
+                <!-- Simple Bell Icon SVG -->
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/>
+                </svg>
+            </div>
+            <h1 class="site-title">Buzzkill</h1>
+        </header>
+
+        <main>
+            <h1 class="page-title">Privacy Policy</h1>
+            <div class="badge">Effective Date: November 25, 2025</div>
+
+            <h2>1. Introduction</h2>
+            <p>At Buzzkill, our mission is to help you reclaim your focus, not your data. We believe your notifications are private conversations, not commodities. This Privacy Policy explains how Buzzkill collects, uses, and discloses information, and what choices you have with respect to the information.</p>
+            <p><strong>The short version:</strong> Buzzkill is designed to work <strong>100% on your device</strong>. We do not send your notification content, contacts, or app usage history to any server. The only data that ever leaves your device is related to verifying your Premium subscription status via our payment provider.</p>
+
+            <h2>2. Information We Do NOT Collect</h2>
+            <p>To be explicitly clear, Buzzkill does <strong>not</strong> transmit, store, or share the following data with us or any third party:</p>
+            <ul>
+                <li><strong>Notification Content:</strong> The text, titles, and images within your notifications are processed locally on your device by our Machine Learning engine and never leave your phone.</li>
+                <li><strong>App Usage History:</strong> Which apps you use and when you use them stays on your device.</li>
+                <li><strong>Personal Identifiers:</strong> We do not collect your name, email address, phone number, or precise location.</li>
+            </ul>
+
+            <h2>3. Information We Collect</h2>
+            <p>Buzzkill strictly limits data collection to what is necessary for the app's subscription functionality.</p>
+
+            <h3>3.1. Purchase and Subscription Data</h3>
+            <p>We use a trusted third-party service, <strong>RevenueCat</strong>, to manage in-app purchases and subscriptions (e.g., Buzzkill Pro). When you purchase a subscription:</p>
+            <ul>
+                <li><strong>What is processed:</strong> An anonymous App User ID, your purchase history (e.g., "Monthly Subscription"), and the expiration date of your subscription.</li>
+                <li><strong>Why it is processed:</strong> To validate your purchase status and unlock Pro features across your devices or after a reinstall.</li>
+                <li><strong>Privacy:</strong> This data is linked to your Google Play Store account ID, not your personal identity within our app. We do not have access to your credit card information or billing address; that is handled exclusively by Google Play.</li>
+            </ul>
+
+            <h2>4. Android Permissions</h2>
+            <p>Buzzkill requires specific permissions to function. Here is how we use them:</p>
+            <ul>
+                <li><strong>Notification Access (NotificationListenerService):</strong>
+                    <ul>
+                        <li><strong>Purpose:</strong> Required to read incoming notifications so the on-device AI can classify them as "Signal" or "Noise" and dismiss spam on your behalf.</li>
+                        <li><strong>Privacy Guarantee:</strong> This access is used strictly for local processing. No data read by this service is transmitted to the cloud.</li>
+                    </ul>
+                </li>
+                <li><strong>Network Access:</strong>
+                    <ul>
+                        <li><strong>Purpose:</strong> Used <strong>only</strong> to communicate with RevenueCat to verify your subscription status. It is not used to upload user data.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>5. Third-Party Services</h2>
+            <p>We use only one third-party service to support our app's core business model:</p>
+            <ul>
+                <li><strong>RevenueCat:</strong>
+                    <ul>
+                        <li>We use RevenueCat to power our in-app subscriptions.</li>
+                        <li>For more information on how RevenueCat handles data, please visit the <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a>.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>6. Data Security</h2>
+            <p>Because we do not collect your personal data or notification content, there is no central database of user information to hack. Your personal data stays secured on your physical device, protected by Android's sandboxing and encryption features.</p>
+
+            <h2>7. Children’s Privacy</h2>
+            <p>Buzzkill does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children.</p>
+
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:support@buzzkill.app">support@buzzkill.app</a></li>
+            </ul>
+        </main>
+
+        <footer>
+            &copy; 2025 Buzzkill. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
